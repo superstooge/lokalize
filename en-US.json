@@ -1,16 +1,18 @@
 {
   "translations": {
-    "homepage": {
-      "title": "test",
-      "subtitle": "subtest"
-    },
-    "section": {
-      "title": "section",
-      "subtitle": "section test"
-    },
-    "other_section": {
-      "title": "other_test",
-      "subtitle": "other test"
+    "disruptive_object_change": {
+      "homepage": {
+        "title": "test",
+        "subtitle": "subtest"
+      },
+      "section": {
+        "title": "section",
+        "subtitle": "section test"
+      },
+      "other_section": {
+        "title": "other_test",
+        "subtitle": "other test"
+      }
     }
   }
 }
