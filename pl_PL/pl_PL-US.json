@@ -1,0 +1,19 @@
+{
+    "translations": {
+        "just_to_mess": {
+            "homepage": {
+                "title": "test",
+                "subtitle": "podtest",
+                "more_title": "Adis!"
+            },
+            "section": {
+                "title": "sekcja",
+                "subtitle": "test sekcji"
+            },
+            "other_section": {
+                "title": "inny_test",
+                "subtitle": "inny test"
+            }
+        }
+    }
+}
