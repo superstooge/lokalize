@@ -1,17 +1,19 @@
 {
   "translations": {
-    "homepage": {
-      "title": "test",
-      "subtitle": "subtest",
-      "more_title": "Adis!"
-    },
-    "section": {
-      "title": "section",
-      "subtitle": "section test"
-    },
-    "other_section": {
-      "title": "other_test",
-      "subtitle": "other test"
+    "just_to_mess": {
+      "homepage": {
+        "title": "test",
+        "subtitle": "subtest",
+        "more_title": "Adis!"
+      },
+      "section": {
+        "title": "section",
+        "subtitle": "section test"
+      },
+      "other_section": {
+        "title": "other_test",
+        "subtitle": "other test"
+      }
     }
   }
 }
