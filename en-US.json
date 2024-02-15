@@ -3,7 +3,8 @@
     "disruptive_object_change_more": {
       "homepage": {
         "title": "test",
-        "subtitle": "subtest"
+        "subtitle": "subtest",
+        "more_title": "Adis!"
       },
       "section": {
         "title": "section",
