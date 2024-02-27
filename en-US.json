@@ -1,22 +1,18 @@
 {
   "translations": {
-    "oh_my_god": {
-      "just_to_mess": {
-        "homepage": {
-          "title": "test",
-          "subtitle": "subtest",
-          "more_title": "Adis!",
-          "more_more_title": "yay"
-        },
-        "section": {
-          "title": "section",
-          "subtitle": "section test"
-        },
-        "other_section": {
-          "title": "other_test",
-          "subtitle": "other test"
-        }
-      }
+    "homepage": {
+      "title": "test",
+      "subtitle": "subtest",
+      "more_title": "Adis!",
+      "more_more_title": "yay"
+    },
+    "section": {
+      "title": "section",
+      "subtitle": "section test"
+    },
+    "other_section": {
+      "title": "other_test",
+      "subtitle": "other test"
     }
   }
 }
