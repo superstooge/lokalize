@@ -1,0 +1,19 @@
+{
+    "translations": {
+        "homepage": {
+            "title": "test",
+            "subtitle": "sottotest",
+            "more_title": "Adis!",
+            "more_more_title": "Sìì",
+            "new_text": "Nuovo testo!"
+        },
+        "section": {
+            "title": "sezione",
+            "subtitle": "prova di sezione"
+        },
+        "other_section": {
+            "title": "altro_prova",
+            "subtitle": "altra prova"
+        }
+    }
+}
