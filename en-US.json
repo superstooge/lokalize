@@ -4,7 +4,8 @@
       "title": "test",
       "subtitle": "subtest",
       "more_title": "Adis!",
-      "more_more_title": "yay"
+      "more_more_title": "yay",
+      "new_text": "New text!"
     },
     "section": {
       "title": "section",
