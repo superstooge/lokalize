@@ -1,0 +1,71 @@
+@import "variables.scss";
+
+.card {
+  background: $white;
+  border-radius: $card-border-radius;
+  box-shadow: $card-box-shadow;
+  padding: 1rem;
+  width: 80%;
+    height: 80%;
+
+  &--no-padding {
+    padding: 0;
+  }
+
+  &--with-options {
+    padding-right: 3rem;
+  }
+
+  &--info {
+    background-color: $grey-lightest;
+    box-shadow: none;
+  }
+
+  &--flat {
+    box-shadow: none;
+    border: 1px solid $grey-lighter;
+  }
+
+  &--interactive {
+    box-shadow: none;
+    border: 1px solid $grey-lighter;
+
+    &:hover {
+      background: #efefef;
+      cursor: pointer;
+    }
+  }
+
+  &__options {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  &__menu {
+    padding: 0.75rem 0.5rem;
+  }
+
+  &__option {
+    font-size: $size-7;
+    font-weight: 400;
+  }
+
+  &__options-button {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  &__title {
+    font-size: 1rem;
+    font-weight: 600;
+
+    &:not(:last-child) {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  &__subtitle:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
