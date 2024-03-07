@@ -1,7 +1,7 @@
 {
-  "welcome_message": "Prueba de traducciones de OneHub",
-  "description": "Esta es una página de prueba para la internacionalización de OneHub.",
-  "additional_heading": "Más texto",
-  "some_more_text": "Este ejercicio prueba la implementación de internacionalización (i18n) dentro de una aplicación React, con un enfoque en la integración con Lokalise para la gestión de traducciones.\n\nVerificaremos que la aplicación pueda:\n- Cargar y mostrar traducciones desde Lokalise.\n- Cambiar de idioma y actualizar el contenido mostrado.\n- Manejar el formato según la configuración regional seleccionada (fechas, números, monedas).\n\nEl ejercicio también involucrará:\n- Preparar archivos de traducción (potencialmente dentro de Lokalise).\n- Configurar la biblioteca i18n (por ejemplo, 'react-i18next') para conectarse con Lokalise.\n- Crear componentes de cambio de idioma para la interacción del usuario.",
-  "language_button": "Cambiar idioma"
+    "welcome_message": "Prueba de traducciones de OneHub",
+    "description": "Esta es una página de prueba para la internacionalización de OneHub.",
+    "additional_heading": "Más texto",
+    "some_more_text": "Este ejercicio prueba la implementación de la internacionalización (i18n) dentro de una aplicación React, con un enfoque en la integración con Lokalise para la gestión de traducciones. \n\n Estaremos verificando que la aplicación pueda:\n - Cargar y mostrar traducciones de Lokalise.\n - Cambiar idiomas y actualizar el contenido mostrado.\n - Manejar el formato según la configuración regional seleccionada (fechas, números, monedas). \n\n El ejercicio también implicará:\n - Preparación de archivos de traducción (potencialmente dentro de Lokalise).\n - Configurar la biblioteca i18n (por ejemplo, reaccionar-i18next') para conectarse con Lokalise.\n - Creación de componentes de cambio de idioma para la interacción del usuario.",
+    "language_button": "Cambiar idioma"
 }
