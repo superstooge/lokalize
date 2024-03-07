@@ -1,0 +1,194 @@
+// OneHub Design Kit Colours
+// https://www.figma.com/file/idtJY81oMCF3g8yTYzIX1P/Onehub-Design-Kit?node-id=933-31022&t=1hpgJ8weRIgYdXZ5-0
+
+// Greyscale
+$oh-black: #000000;
+$oh-grey-darkest: #2e2e2e;
+$oh-grey-darker: #4a4a4a;
+$oh-grey-dark: #6a6a6a;
+$oh-grey: #a6a6a6;
+$oh-grey-light: #d7d7d7;
+$oh-grey-lighter: #efefef;
+$oh-grey-lightest: #f7f7f7;
+$oh-off-white: #fbfbfb; // legacy colour, please avoid if possible
+$oh-white: #ffffff;
+
+// Status
+$oh-negative-dark: #c20f33;
+$oh-negative: #f14668;
+$oh-warning-dark: #eba60b;
+$oh-warning: #f4d480;
+$oh-warning60: #f8e5b3;
+$oh-warning40: #fbeecc;
+$oh-positive-dark: #4a7938;
+$oh-positive: #89b077;
+$oh-positive60: #b7ceac;
+$oh-positive40: #d0e0c9;
+$oh-positive20: #e7efe4;
+$oh-information-dark: #155c8f;
+$oh-information: #6fa0c2;
+
+// Bulma
+
+// Breakpoints
+$tablet: 768px !default;
+$desktop: 1024px !default;
+$widescreen: 1216px !default;
+$fullhd: 1408px !default;
+
+// Disable unused features
+$widescreen-enabled: false !default;
+$fullhd-enabled: false !default;
+$variable-columns: false !default;
+$spacing-values: () !default;
+
+// Layout
+$gap: 64px !default;
+$gap-mobile: $gap * 0.5 !default;
+
+$app-header-height: 3.875rem !default;
+$app-header-max-width: 100rem !default;
+$app-header-bottom-margin: 1.25rem !default;
+$app-container-max-width: $app-header-max-width;
+$container-max-width: $desktop !default;
+$sidebar-width: 16.75rem !default;
+$footer-menu-height: 3.5rem !default;
+$primary-sidebar-width: 4rem;
+$secondary-sidebar-width: 14rem;
+$primary-sidebar-item-height: $primary-sidebar-width;
+
+// Forms
+$padding-formfields: 1.5rem;
+
+// Brought from legacy variables as we are using them in redesign folders
+$desktop-max-width: 75rem;
+$desktop-sidebar-width: 5rem;
+$navbar-height: $desktop-sidebar-width;
+
+// Colours (customises Bulma initial variables)
+$white: $oh-white;
+$off-white: $oh-off-white;
+$grey-lightest: $oh-grey-lightest;
+$grey-lighter: $oh-grey-lighter;
+$grey-light: $oh-grey-light;
+$grey: $oh-grey-dark;
+$grey-dark: $oh-grey-darkest;
+$red: #e33f45;
+$black: #2f2e2e;
+$green: #3eab5c;
+$primary: $green !default;
+
+$body-background-color: $off-white;
+$button-border-color: #cfcfcf;
+$modal-background-background-color: rgba($black, 0.6);
+$hr-background-color: $grey-lighter;
+
+$given-background: #dfebef;
+$given-color: #114b66;
+$received-background: #fef3ee;
+$received-color: #f9916b;
+
+// Tertiary colors, eg. used within information pills
+$tertiary-blue: #357a8d;
+$tertiary-blue-dark: #205a6d;
+$tertiary-blue-light: #c2d7dd;
+$tertiary-green: #bbb350;
+$tertiary-green-light: #d6d196;
+$tertiary-orange: #ec7f48;
+$tertiary-orange-light: #f4b291;
+$tertiary-orange-dark: #e35f2e;
+$tertiary-pink: #e3969f;
+$tertiary-pink-light: #f1cbcf;
+$tertiary-purple: #8a6a8a;
+$tertiary-purple-light: #b9a6b9;
+$tertiary-purple-lighter: #dbcddb;
+$tertiary-sage-green: #7d916b;
+$tertiary-sage-green-light: #b1bda6;
+$tertiary-yellow: #eacc8a;
+$tertiary-yellow-light: #f2e0b9;
+$tertiary-yellow-dark: #e0b86a;
+$tertiary-brown: #a1888b;
+
+// Brands
+$blue-vimeo: #1ab7ea;
+
+// Global nav
+$global-nav-gap: 1rem;
+$global-nav-max-width: 125rem !default;
+$global-nav-height: 4rem !default;
+$global-nav-mobile-height: 3.5rem !default;
+$global-nav-tabs-link-color: $grey-dark;
+$global-nav-tabs-link-space: 1.25rem;
+$global-nav-tabs-border-bottom-width: 2px;
+$global-nav-tabs-border-bottom-color: #c9c9c9;
+$global-nav-margin-bottom: 1.5rem;
+
+// Shadows
+$box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+$avatar-box-shadow-color: rgba(0, 0, 0, 0.25);
+$avatar-box-shadow: 0px 2px 2px $avatar-box-shadow-color;
+$card-border-radius: 0.75rem;
+$card-box-shadow: 0px 4px 6px rgba(47, 46, 46, 0.1), 0px 4px 60px rgba(47, 46, 46, 0.1),
+  0px 1px 4px rgba(47, 46, 46, 0.16);
+$card-box-shadow-faded: 0px 4px 4px rgba(47, 46, 46, 0.07), 0px 4px 40px rgba(47, 46, 46, 0.07),
+  0px 1px 2px rgba(47, 46, 46, 0.1);
+
+// Tabs
+$tabs-border-bottom-width: 1px;
+$tabs-border-bottom-color: #c9c9c9;
+$tabs-link-color: #6e6e6e;
+$tabs-link-padding: 1.25rem;
+
+// UI Stack
+$dropdown-content-z: 20;
+$footer-menu-z: 30;
+$navbar-z: 35;
+$navbar-items-z: 40;
+$drawer-z: 50;
+$modal-z: 60;
+$toasts-z: 70;
+$statuspage-z: 1000000; // To appear above Zendesk widget
+
+// Typography (requires initial-variables)
+$family-sans-serif: "Nunito Sans", sans-serif;
+$family-header-sans-serif: "Nunito", sans-serif;
+
+$size-1: 0.875rem;
+$size-2: 0.8125rem;
+$size-3: 0.75rem;
+$size-4: 0.875rem;
+$size-5: 0.8125rem;
+$size-6: 0.75rem;
+$size-7: 0.875rem;
+$size-8: 0.8125rem;
+$size-9: 0.75rem;
+$size-small: $size-8;
+$sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 $size-8 $size-9;
+
+$title-color: $grey-dark;
+$title-size: $size-6;
+$title-weight: 400;
+$title-line-height: 1.5;
+
+$subtitle-color: $grey;
+$subtitle-size: $size-8;
+$subtitle-weight: 400;
+$subtitle-line-height: 1.5;
+
+// Inputs
+$input-radius: 3;
+$input-padding-vertical: 0.5rem !default;
+$input-padding-horizontal: 0.875rem !default;
+
+
+// Colors
+$body-background-color: #f8f8f8; 
+$grey-lightest: #eeeeee;
+$button-primary: #3EAB5C;
+
+// Spacing
+$main-content-margin-top: 2rem;
+$main-content-margin-top-tablet: 3rem;
+
+// Layout
+$global-nav-max-width: 1000px; 

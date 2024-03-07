@@ -1,0 +1,36 @@
+@import "variables.scss";
+
+p {
+  white-space: pre;
+    text-wrap: wrap;
+}
+
+.app {
+  font-family: $family-sans-serif;
+
+  &__nav {
+    margin-bottom: 0;
+  }
+
+  &__container {
+    background-color: $body-background-color;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  &__content-container {
+    max-width: 125rem;
+    margin: 0 auto;
+    background-color: $grey-lightest;
+    min-height: calc(100vh - 4.875rem);
+  }
+
+}
+
+.button {
+  background-color: $button-primary;
+  color: white;
+}

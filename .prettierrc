@@ -1,0 +1,17 @@
+{
+  "endOfLine": "lf",
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "jsxSingleQuote": true,
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": ["**/*.css", "**/*.scss", "**/*.html"],
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
+}
