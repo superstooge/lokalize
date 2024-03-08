@@ -9,6 +9,7 @@ export const LanguageDropdown = () => {
   const languages = [
     { code: 'en', label: 'English' },
     { code: 'es', label: 'Español' },
+    { code: 'pl', label: 'Polish' },
   ];
 
   const handleChangeLanguage = (code:string) => {

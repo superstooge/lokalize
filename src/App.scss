@@ -34,3 +34,20 @@ p {
   background-color: $button-primary;
   color: white;
 }
+
+.lang_btn {
+  margin-top: 10px;
+  padding-right: 0.5rem;
+  font-weight: 600;
+  display: inline;
+  float: left;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.oh-ds-benefex-logo {
+  max-width: 15rem;
+}
