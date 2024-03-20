@@ -6,6 +6,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import en from './locales/en.json';
 import es from './locales/es.json'; 
 import pl from './locales/pl.json'; 
+import it from './locales/it.json'; 
 
 i18n
   .use(Backend) // Load translations
@@ -16,6 +17,7 @@ i18n
       en: { translation: en },
       es: { translation: es },
       pl: { translation: pl },
+      it: { translation: it },
     },
     fallbackLng: 'en', // Default language
 

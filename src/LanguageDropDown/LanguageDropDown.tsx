@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import './LanguageDropDown.scss'
+import { languages } from '../constants';
+
+
+
 
 export const LanguageDropdown = () => {
   const { i18n } = useTranslation(); 
   const [isOpen, setIsOpen] = useState(false);
 
-  const languages = [
-    { code: 'en', label: 'English' },
-    { code: 'es', label: 'Español' },
-    { code: 'pl', label: 'Polish' },
-  ];
+  
 
   const handleChangeLanguage = (code:string) => {
     i18n.changeLanguage(code);
