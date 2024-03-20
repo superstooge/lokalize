@@ -3,10 +3,5 @@
     "description": "To jest strona testowa dotycząca internacjonalizacji OneHub.",
     "some_more_text": "To ćwiczenie sprawdza implementację internacjonalizacji (i18n) w aplikacji React, ze szczególnym uwzględnieniem integracji z Lokalise w celu zarządzania tłumaczeniami. \n\n Sprawdzimy, czy aplikacja może:\n - Ładuj i wyświetlaj tłumaczenia z Lokalise.\n - Zmień język i zaktualizuj wyświetlaną treść.\n - Obsługa formatowania w oparciu o wybrane ustawienia regionalne (daty, liczby, waluty). \n\n Ćwiczenie będzie obejmowało również:\n - Przygotowywanie plików tłumaczeniowych (potencjalnie w ramach Lokalise).\n - Konfiguracja biblioteki i18n (np. React-i18next') do połączenia z Lokalise.\n - Tworzenie komponentów przełączających język do interakcji z użytkownikiem.",
     "language_button": "Zmień język",
-    "other_key": "przetestować Lokalise auto-pull webhook",
-    "new_key": "nowy klucz",
-    "additional_heading": "Streszczenie",
-    "test_automations": "To jest test dla automatyzacji",
-    "another_test_automation": "Cześć, jestem nowym test",
-    "other_new_key": ""
+    "additional_heading": "Dodatkowy tekst nagłówka"
 }
