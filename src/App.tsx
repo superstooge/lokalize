@@ -17,7 +17,6 @@ function App() {
         <p>{t('description')}</p>
         <h2>{t('additional_heading')}</h2>
         <p>{t('some_more_text')}</p>
-        <p>{t('other_new_key')}</p>
         <hr />
         <div className='footer'>
         <span className='lang_btn'>{t('language_button')}</span>
